@@ -1,0 +1,57 @@
+/* Header.css */
+.header {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-between; /* Ensures heading is on the left and controls on the right */
+    align-items: center;
+    padding: 10px 20px;
+    grid-area: header;
+  }
+  
+  .header h1,p,i {
+    color: #8A8EA6;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds space between the elements */
+  }
+  
+  .header-controls i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .header-controls p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .for-poh {
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FCCC55;
+  }
+  
+  .header-controls .logout {
+    color: #8A8EA6;
+    cursor: pointer;
+  }
+  
+  .for-admin {
+    background-color: #E553BC;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
